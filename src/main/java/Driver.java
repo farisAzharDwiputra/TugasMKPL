@@ -16,6 +16,13 @@ public class Driver {
 		
 		System.out.println("Melakukan Count:" + counter.getCount());
 		
+		counter.increment();
+		
+		System.out.println("Melakukan Count:" + counter.getCount());
+		
+		counter.decrement();
+		
+		System.out.println("Melakukan Count:" + counter.getCount());
 	}
 
 }
