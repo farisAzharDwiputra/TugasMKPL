@@ -15,14 +15,15 @@ public class Driver {
 		counter.decrement();
 		
 		System.out.println("Melakukan Count:" + counter.getCount());
-		
-		counter.increment();
+
+		counter.increseBY();
 		
 		System.out.println("Melakukan Count:" + counter.getCount());
 		
 		counter.decrement();
 		
 		System.out.println("Melakukan Count:" + counter.getCount());
+		
 	}
 
 }

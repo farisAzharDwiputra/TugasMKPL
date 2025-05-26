@@ -23,5 +23,9 @@ public class Counter {
 	public int getCount() {
 		return count;
 	}
+
+	public int increseBY() {
+		return count++;
+	}
 	
 }
